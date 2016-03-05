@@ -1,0 +1,29 @@
+Developement Blog
+Why is the background solid white?!
+--LN 44 - in f(x) draw() added background(0); --found this due to erase function
+
+Having so much trouble in p5 to get 3D going, switching to Processing after 2 hours
+
+Added P3D to size
+Converted all shapes to 3D
+Added Z axis to constructor
+
+
+where the hell is width coming from?!
+
+--Documentation Reference - This value is set by the first parameter of the size() function. For example, the function call size(320, 240) sets the width variable to the value 320. The value of width defaults to 100 if size() is not used in a program.
+
+Trying to make the snowman - So the sphere size is the same for all 3 spheres yet the first one is 2x the size. What is this scale command getting??
+
+
+--It gets 0.5 specified in the variable declarations. 
+To accomplish what I needed I had to double scale, since the scale acts as a multiplier when added to the code, doubling it ups reduces the size of the 3rd sphere by 4x. 
+
+Adding a push matrix for the hat. 
+Using ellipse for the brim of the hat crashed Processing multiple times. 
+
+Thought I lost my work in a power outage, was only the monitor that came loose. 
+
+Submitting to github. 
+
+
